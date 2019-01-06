@@ -4,6 +4,7 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     passwd="sandy",
+
     database="sandy"
 )
 
@@ -15,3 +16,4 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
   print(x)
+  print("hello")
