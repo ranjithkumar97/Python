@@ -1,0 +1,18 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="BraceOrQuoteOut" />
+  <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorIndentSelection" />
+  <action id="EditorTab" />
+  <action id="ExpandLiveTemplateByTab" />
+  <action id="Github.Share">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.NextTab" />
+</keymap>
